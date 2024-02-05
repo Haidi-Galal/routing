@@ -1,0 +1,16 @@
+.line{
+    background-color: var(--blue-color);
+}
+.main-color{
+    background-color: var(--main-color);
+    color: white;
+}
+.form-control{
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    box-shadow: none;
+}
+.form-control:focus{
+    border-color:#dee2e6;
+}

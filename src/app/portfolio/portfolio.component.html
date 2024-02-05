@@ -1,0 +1,73 @@
+
+<div class="portfolio pt-5  ">
+    <div class="mt-5  text-center pt-5   ">
+        <h1>PORTFOLIO COMPONENT</h1>
+    <ul class="d-flex justify-content-center           align-items-center  list-unstyled w-20  "> 
+        <li class="mx-3 ">
+            <span class="line"></span>
+        </li>
+        <li><i class="fa-solid fa-star py-3 fs-4   "></i>
+        </li>
+        <li class="mx-3 ">
+            <span class="line"></span>
+        
+        </li>
+    </ul>
+    </div>
+    <div class="container text-center   ">
+        
+        <div class="row  pb-5  gy-5 gx-4   ">
+        <div class="col-md-4 ">
+       
+         <div class="parent" (click)="showImg(images[0])" >
+            <div class="filter rounded d-flex justify-content-center  align-items-center  ">
+                <i class="fa-solid fa-plus  text-white "></i>
+            </div>
+          <img [src]="images[0]" alt="" srcset="" class="w-100 rounded " >  
+         </div>
+        </div>
+        <div class="col-md-4 ">
+            <div class="parent" (click)="showImg(images[1])">
+                <div class="filter rounded d-flex justify-content-center  align-items-center  ">
+                    <i class="fa-solid fa-plus  text-white "></i>
+                </div>
+             <img [src]="images[1]" alt="" srcset="" class="w-100 rounded  ">  
+            </div>
+           </div>
+           <div class="col-md-4 ">
+            <div class="parent" (click)="showImg(images[2])">
+                <div class="filter rounded d-flex justify-content-center  align-items-center  ">
+                    <i class="fa-solid fa-plus  text-white "></i>
+                </div>
+             <img [src]="images[2]" alt="" srcset="" class="w-100 rounded  ">  
+            </div>
+           </div>
+           <div class="col-md-4 ">
+            <div class="parent" (click)="showImg(images[0])">
+                <div class="filter rounded d-flex justify-content-center  align-items-center  ">
+                    <i class="fa-solid fa-plus  text-white "></i>
+                </div>
+             <img [src]="images[0]" alt="" srcset="" class="w-100 rounded  ">  
+            </div>
+           </div>
+           <div class="col-md-4 ">
+            <div class="parent" (click)="showImg(images[1])">
+                <div class="filter rounded d-flex justify-content-center  align-items-center  ">
+                    <i class="fa-solid fa-plus  text-white "></i>
+                </div>
+             <img [src]="images[1]" alt="" srcset="" class="w-100 rounded">  
+            </div>
+           </div>
+           <div class="col-md-4 ">
+            <div class="parent" (click)="showImg(images[2])">
+                <div class="filter rounded d-flex justify-content-center  align-items-center  ">
+                    <i class="fa-solid fa-plus  text-white "></i>
+                </div>
+             <img [src]="images[2]" alt="" srcset="" class="w-100 rounded ">  
+            </div>
+           </div>
+        </div>
+        
+        
+    </div>
+</div>

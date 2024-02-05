@@ -1,0 +1,41 @@
+
+.bg-nav{
+    background-color: var(--blue-color);
+
+}
+.navbar li , .navbar a{
+    color: white;
+
+   
+}
+.navbar-brand {
+    font-size: 30px;
+    font-weight: bolder;
+
+}
+.navbar li{
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.navbar>.container-fluid{
+    justify-content: space-around;
+}
+a{
+    margin-inline: 40px;
+}
+@media   (min-width: 0px) and (max-width: 500px) {
+	a{
+        margin-inline:0px;
+    }
+    .navbar-brand{
+        font-size: 10px;
+    }
+}
+.bg-link {
+    background-color: var(--main-color);
+    border-radius: 4px;
+}
+#nav{
+    transition: all 1s;
+}

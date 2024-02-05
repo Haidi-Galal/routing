@@ -1,0 +1,13 @@
+.footer{
+    background-color: var(--blue-color);
+}
+.icon{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 1px solid white;
+    margin-inline: 3px;
+}
+.footer-part{
+    background-color: #0C1115;
+}

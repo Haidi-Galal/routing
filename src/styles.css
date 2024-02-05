@@ -1,0 +1,16 @@
+:root{
+    --blue-color:#2C3E50;
+    --main-color:#1ABC9C;
+}
+li ,a {
+  cursor: pointer;  
+}
+.line{
+    display: block;
+    width: 100px;
+    background-color: white;
+    height: 5px;
+}
+html{
+  scroll-behavior: smooth;
+}
